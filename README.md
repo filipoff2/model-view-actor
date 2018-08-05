@@ -14,8 +14,8 @@ Forms Accors additonaly have: Post/Update validation error, 500 :) server failed
 Defining an understanding that such cases exists was main issue solver.
 # How Comunications between Actors is done?
 - via Routing - is navigation between Actors(VM) and passing data beteen  
-- via messages  
+- via Messager - from, to, subject, message  
 
 # Summary
 MVA is micro actor system where all actors are inside single app. 
-Fault tolerance, actor thinkig can be intoduced to any system. 
+Fault tolerance, actor thinkig can be intoduced to any system this is show case of using it mobile app. 
