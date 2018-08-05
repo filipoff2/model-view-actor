@@ -17,5 +17,7 @@ Defining an understanding that such cases exists was main issue solver.
 - via Messager - from, to, subject, message  
 
 # Summary
-MVA is micro actor system where all actors are inside single app. 
+MVA is micro actor system where all actors are inside single one app. 
 Fault tolerance, actor thinkig can be intoduced to any system this is show case of using it mobile app. 
+No big mechanism are required one app so no need to build quaqes for massages.
+Things as "Supervision and Monitoring" are simply "SomeFlowService and Logger". FlowServices are simly groups of Actors (View models) used for example in wizzards that is step by step,screen by screen operations. 
