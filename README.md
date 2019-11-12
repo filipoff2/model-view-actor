@@ -1,7 +1,7 @@
 # model-view-actor (mva)
 mva is mvvm extention where viewmodel becomes an actor with fault tolerance, routing, messenging, logger 
 # What was basic need to reinvent mva?
-Making mobile application uncrashable. Biggest problem is undenrstanding what is excpetion and how it should handled.
+Making mobile application uncrashable. Biggest problem is understanding what is excpetion and how it should handled.
 Idea of making apps unkillable was taken from Akka.net in fact from scala/java. The actor systems and fault tolerance.
 # What is actor?
 https://doc.akka.io/docs/akka/2.5/fault-tolerance.html#supervision-of-top-level-actors
