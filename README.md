@@ -14,6 +14,7 @@ In fact it view model but in fact with few additional things with are not part o
 Defining an understanding that such cases exists was main issue solver.
 
 #How Communications between Actors is done?
+
 via Routing - is navigation between Actors(VM) and passing data between
 via Message- from, to, subject, message
 
