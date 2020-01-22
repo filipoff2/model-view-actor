@@ -10,8 +10,10 @@ https://doc.akka.io/docs/akka/2.5/fault-tolerance.html#supervision-of-top-level-
 
 #What is mva actor?
 
-In fact it view model but in fact with few additional things with are not part of mvvm patern. -There are few common states VM(mva Actor) should handle: Navigated, Blank/data loading, load failed, load failed with critical error, load basic data success but some still to come, app closed is possible to recover flow Forms Accors additonaly have: Post/Update validation error, 500 :) server failed, warnings ,. Defining an understanding that such cases exists was main issue solver.
-How Communications between Actors is done?
+In fact it view model but in fact with few additional things with are not part of mvvm patern. -There are few common states VM(mva Actor) should handle: Navigated, Blank/data loading, load failed, load failed with critical error, load basic data success but some still to come, app closed is possible to recover flow Forms Accors additonaly have: Post/Update validation error, 500 :) server failed, warnings.
+Defining an understanding that such cases exists was main issue solver.
+
+#How Communications between Actors is done?
 via Routing - is navigation between Actors(VM) and passing data between
 via Message- from, to, subject, message
 
