@@ -19,6 +19,9 @@ via Routing - is navigation between Actors(VM) and passing data between
 
 via Message- from, to, subject, message
 
+Similar concept but not exacly same:
+https://en.wikipedia.org/wiki/Mediator_pattern
+
 #Summary
 
 MVA is micro actor system where all actors are inside single one app. Fault tolerance, actor thinking can be introduced to any system this is show case of using it mobile app. No big mechanism are required one app so no need to build quaqes for massages. Things as "Supervision and Monitoring" are simply "SomeFlowService and Logger". FlowServices are simly groups of Actors (View models) used for example in wizards that is step by step, screen by screen operations.
